@@ -23,7 +23,7 @@ form.addEventListener('submit', e =>{
         result.appendChild(removeArea);
         listaDeTarefas.appendChild(result)
         tarefas.push(result);
-
+        
         /*   
 
         if (localStorage.getItem('tarefas')) {
