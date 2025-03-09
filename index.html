@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 9 - JavaScript</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="top">
+            <h1>Olá, Sr. Ismael Cabingano.</h1>
+            <span>Digite as suas tarefas para armazená-las</span>
+        </div>
+        <div class="input-area">
+            <form action="submit" id="form">
+                <input type="text" id="tarefa" placeholder="Digite a uma tarefa...">
+                <button type="submit"> Adicionar Tarefa </button>
+            </form>
+        </div>
+        <div class="tarefas">
+            <ul class="lista-de-tarefas">
+                <li>
+                    <span id="js-tarefa">Lavar a Louça</span>
+                    <div class="btn-delete">
+                        <img src="bin.png" id="js-btn-delete" alt="Lixeira">
+                    </div>
+                </li>
+                <li>
+                    <span id="js-tarefa">Comer</span>
+                    <div class="btn-delete">
+                        <img src="bin.png" id="js-btn-delete" alt="Lixeira">
+                    </div>
+                </li>
+                <li>
+                    <span id="js-tarefa">Jantar</span>
+                    <div class="btn-delete">
+                        <img src="bin.png" id="js-btn-delete" alt="Lixeira">
+                    </div>
+                </li>
+            </ul>
+        </div>        
+    </div>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
